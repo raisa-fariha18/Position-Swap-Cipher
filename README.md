@@ -51,3 +51,43 @@
 ## 🧾 Introduction
 
 Cryptography plays a crucial role in securing digital communication. While modern encryption algorithms are complex and mathematically intensive, learning begins with understanding basic principles. The **Position Swap Cipher** is a simple, custom-designed encryption method created to demonstrate core cryptographic concepts such as **character manipulation**, **data transformation**, and **symmetry in encryption and decryption**.
+
+---
+
+# Source Code : (Python)
+
+```text
+def encrypt(text):
+    # Step 1: Swap adjacent characters
+    text = list(text)
+    for i in range(0, len(text) - 1, 2):
+        text[i], text[i + 1] = text[i + 1], text[i]
+    
+    # Step 2: Caesar shift (+1)
+    encrypted = ""
+    for ch in text:
+        encrypted += chr((ord(ch) + 1) % 256)
+    return encrypted
+
+def decrypt(cipher):
+    # Step 1: Caesar shift (−1)
+    temp = ""
+    for ch in cipher:
+        temp += chr((ord(ch) - 1) % 256)
+
+    # Step 2: Swap adjacent characters back
+    temp = list(temp)
+    for i in range(0, len(temp) - 1, 2):
+        temp[i], temp[i + 1] = temp[i + 1], temp[i]
+    return ''.join(temp)
+
+# Test
+plaintext = "PLAINTEXT"
+ciphertext = encrypt(plaintext)
+decrypted = decrypt(ciphertext)
+
+print("Plaintext:", plaintext)
+print("Encrypted:", ciphertext)
+print("Decrypted:", decrypted)
+
+```
