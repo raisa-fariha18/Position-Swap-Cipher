@@ -62,6 +62,11 @@ The **Position Swap Cipher** algorithm combines two fundamental techniques:
    Input: HELLO
    
    Step: Swap 0↔1, 2↔3 → EHLLO
+   
+2. **Caesar Shift (+1)**  
+After swapping, each character is shifted forward by 1 in its ASCII value to further obscure the content.  
+For example:  
+'A' → 'B', '1' → '2', 'Z' → '['
 
 ---
 
