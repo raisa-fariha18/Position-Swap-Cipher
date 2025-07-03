@@ -69,8 +69,35 @@ For example:
 'A' → 'B', '1' → '2', 'Z' → '['
 
 ---
+## 🛠️ Encryption Process
 
+The encryption process in the **Position Swap Cipher** involves two simple steps:
 
+### 1. Swap Adjacent Characters  
+Each pair of characters in the plaintext is swapped to alter the original structure.
+
+**Example**:  
+Given: PLAINTEXT
+Step 1: Swap adjacent characters
+P L A I N T E X T
+↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓
+L P I A T N X E T (swap 0↔1, 2↔3, 4↔5, 6↔7)
+
+### 2. Apply Caesar Shift (+1)  
+Every character in the swapped string is shifted forward by 1 in its ASCII value.
+
+**Example**:  
+L → M
+P → Q
+I → J
+A → B
+T → U
+N → O
+X → Y
+E → F
+T → U
+
+🔐 **Final Ciphertext**: `MQJBUOYFU`
 
 ---
 
