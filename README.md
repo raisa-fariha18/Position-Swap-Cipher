@@ -51,6 +51,12 @@
 ## 🧾 Introduction
 
 Cryptography plays a crucial role in securing digital communication. While modern encryption algorithms are complex and mathematically intensive, learning begins with understanding basic principles. The **Position Swap Cipher** is a simple, custom-designed encryption method created to demonstrate core cryptographic concepts such as **character manipulation**, **data transformation**, and **symmetry in encryption and decryption**.
+## 🔧 Core Techniques Used
+
+The **Position Swap Cipher** algorithm combines two fundamental techniques:
+
+1. **Swapping Adjacent Characters**  
+   This step alters the structure of the input message by swapping every two adjacent characters.  
 
 ---
 
