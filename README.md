@@ -56,7 +56,10 @@ Cryptography plays a crucial role in securing digital communication. While moder
 The **Position Swap Cipher** algorithm combines two fundamental techniques:
 
 1. **Swapping Adjacent Characters**  
-   This step alters the structure of the input message by swapping every two adjacent characters.  
+   This step alters the structure of the input message by swapping every two adjacent characters.
+   For example:
+   Input: HELLO
+Step: Swap 0↔1, 2↔3 → EHLLO
 
 ---
 
