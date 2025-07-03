@@ -77,6 +77,7 @@ The encryption process in the **Position Swap Cipher** involves two simple steps
 Each pair of characters in the plaintext is swapped to alter the original structure.
 
 **Example**:  
+```text
 Given: PLAINTEXT
 Step 1: Swap adjacent characters
 P L A I N T E X T
@@ -98,7 +99,7 @@ E → F
 T → U
 
 🔐 **Final Ciphertext**: `MQJBUOYFU`
-
+```
 ---
 
 # Source Code : (Python)
