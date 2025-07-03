@@ -1,8 +1,8 @@
 <p align="center">
 <img src="./HSTU_Logo.png" alt="HSTU Logo" width="150">
 </p>
-<h2 align="center"><strong>HAJEE MOHAMMAD DANESH SCIENCE AND TECHNOLOGY UNIVERSITY</strong></h2>
-<h3 align="center">DINAJPUR-5200</h3>
+<h2 align="center"><strong>Hajee Mohammad Danesh Science And Technology University</strong></h2>
+<h3 align="center">Dinajpur-5200</h3>
 
 
 <h2 align="center" style="color:#16a085;"><strong> Course Information</strong></h2>
