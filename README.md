@@ -45,3 +45,9 @@
   <br>
   <strong>Department:</strong> Computer Science and Engineering  
 </p>
+
+---
+
+## 🧾 Introduction
+
+Cryptography plays a crucial role in securing digital communication. While modern encryption algorithms are complex and mathematically intensive, learning begins with understanding basic principles. The **Position Swap Cipher** is a simple, custom-designed encryption method created to demonstrate core cryptographic concepts such as **character manipulation**, **data transformation**, and **symmetry in encryption and decryption**.
