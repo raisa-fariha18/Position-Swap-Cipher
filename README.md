@@ -100,7 +100,7 @@ T → U
 
 🔐 **Final Ciphertext**: `MQJBUOYFU`
 ```
-## 🔓 Decryption Algorithm – Explained
+## 🔓 Decryption Algorithm 
 
 The **Position Swap Cipher** decryption process reverses the steps applied during encryption. It ensures that the original plaintext is recovered accurately from the ciphertext.
 
