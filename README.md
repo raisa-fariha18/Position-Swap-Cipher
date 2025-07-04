@@ -101,7 +101,6 @@ T → U
 🔐 **Final Ciphertext**: `MQJBUOYFU`
 ```
 ---
----
 
 ## 🔑 Key Used:
 - Fixed Caesar shift: **+1**
