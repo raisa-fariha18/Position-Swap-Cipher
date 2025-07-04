@@ -100,6 +100,36 @@ T → U
 
 🔐 **Final Ciphertext**: `MQJBUOYFU`
 ```
+## 🔓 Decryption Algorithm – Explained
+
+The **Position Swap Cipher** decryption process reverses the steps applied during encryption. It ensures that the original plaintext is recovered accurately from the ciphertext.
+
+---
+
+### 🔄 Step-by-Step Process:
+
+#### **Step 1: Caesar Shift (−1)**  
+Each character in the ciphertext is shifted backward by 1 in its ASCII value to undo the Caesar shift applied during encryption.
+
+#### 🔍 Example:
+Ciphertext: M Q J B U O Y F U
+Shift −1 → L P I A T N X E T
+
+After this step, the intermediate string is:  
+**LPIATNXET**
+
+---
+
+#### **Step 2: Swap Adjacent Characters Back**  
+Now, the algorithm swaps adjacent characters again to undo the structural rearrangement done earlier.
+
+#### 🔁 Swap index pairs: 0↔1, 2↔3, 4↔5, 6↔7
+
+Input: L P I A T N X E T
+Swap → P L A I N T E X T
+
+✅ **Final Output (Plaintext)**: `PLAINTEXT`
+
 ---
 
 ## 🔑 Key Used:
