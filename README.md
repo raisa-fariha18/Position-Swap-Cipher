@@ -101,6 +101,13 @@ T → U
 🔐 **Final Ciphertext**: `MQJBUOYFU`
 ```
 ---
+---
+
+## 🔑 Key Used:
+- Fixed Caesar shift: **+1**
+- Simple swap: no additional key needed.
+
+---
 
 # Source Code : (Python)
 
